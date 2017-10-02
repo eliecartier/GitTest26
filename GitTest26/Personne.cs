@@ -46,5 +46,10 @@ namespace GitTest26
             this.Prenom = prenom;
             this.Age = age;
         }
+
+        public override string ToString()
+        {
+            return base.ToString();
+        }
     }
 }
